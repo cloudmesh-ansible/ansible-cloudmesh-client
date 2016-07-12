@@ -5,7 +5,7 @@ release=$(lsb_release -rs)
 
 PKG_INSTALL=''
 
-case "$distribution" in
+case $distribution in
     Ubuntu)
         case $release in
             16.04)

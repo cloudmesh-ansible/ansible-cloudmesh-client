@@ -1,3 +1,6 @@
 ---
 
 - include: common.yml
+
+- include: ubuntu_16.04.yml
+  when: ansible_distribution == 'Ubuntu' and ansible_distribution_version == '16.04'

@@ -10,7 +10,7 @@ case $distribution in
         case $release in
             16.04)
                 PKG_INSTALL='apt install'
-                sudo $PKG_INSTALL -y python-minimal
+                sudo $PKG_INSTALL -y python-minimal ansible
                 ;;
             *)
                 ;;

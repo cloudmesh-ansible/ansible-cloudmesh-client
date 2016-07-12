@@ -11,6 +11,7 @@ cloudmesh_client_debian_packages:
   - libssl-dev
   - libffi-dev
   - libsqlite3-dev
+  - openssh-client
 
 cloudmesh_client_trusty_packages: []
 cloudmesh_client_xenial_packages: []

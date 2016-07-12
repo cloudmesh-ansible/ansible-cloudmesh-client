@@ -8,7 +8,7 @@ PKG_INSTALL=''
 case "$distribution" in
     Ubuntu)
         case $release in
-            16.06)
+            16.04)
                 PKG_INSTALL='apt install'
                 sudo $PKG_INSTALL -y python-minimal
                 ;;

@@ -1,2 +1,15 @@
 ---
-# defaults file for ansible-cloudmesh-client
+
+# apt cache valid time in minutes
+ansible_cloudmesh_apt_cache_valid_time: 60
+
+cloudmesh_client_debian_packages:
+  - python-dev
+  - python-pip
+  - python-virtualenv
+  - libssl-dev
+  - libffi-dev
+  - libsqlite3-dev
+
+cloudmesh_client_trusty_packages: []
+cloudmesh_client_xenial_packages: []

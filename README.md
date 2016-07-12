@@ -25,7 +25,7 @@ You can now include the role in your playbook
 ## Local Machine
 
 ```
-$ git clone git@github.com:cloudmesh/ansible-cloudmesh-client.git
+$ git clone https://github.com/cloudmesh/ansible-cloudmesh-client.git
 $ cd ansible-cloudmesh-client
 $ ./setup.sh
 $ ansible-playbook -i local/inventory.txt local/site.yml

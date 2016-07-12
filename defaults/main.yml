@@ -4,6 +4,7 @@
 ansible_cloudmesh_apt_cache_valid_time: 60
 
 cloudmesh_client_debian_packages:
+  - git
   - python-dev
   - python-pip
   - python-virtualenv
